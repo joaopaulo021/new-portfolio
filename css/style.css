@@ -567,6 +567,7 @@
     }
     
     .descricao {
+        text-align: center;
         box-shadow: 5px 5px rgba(141, 138, 138, 0.8), 0px 5px 5px rgba(31, 73, 125, 0.8);
         overflow-y: auto;
         border-radius: 10px;
