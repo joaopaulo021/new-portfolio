@@ -632,7 +632,7 @@
         box-shadow: -10px -10px 25px rgba(0, 0, 0, 0.5);
         color: white;
         margin-top: 20px;
-        height: 200px;
+        height: 250px;
     }
     
     #contato a:visited {
@@ -641,6 +641,22 @@
     }
     
     #contato a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #contato a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #contato i {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #contato span {
         text-decoration: none;
         color: white;
     }
@@ -666,10 +682,10 @@
     }
     
     .btnSociais-container {
+        align-items: center;
         justify-content: center;
         width: 300px;
         height: 50px;
-        align-items: center;
         display: flex;
     }
     
@@ -688,14 +704,12 @@
         height: 100%;
         text-align: center;
         margin-right: 40px;
-        align-items: center;
     }
     
     .btnSociais-container .whats {
         text-align: center;
         color: white;
         height: 100%;
-        align-items: center;
         margin-right: 40px;
     }
     
